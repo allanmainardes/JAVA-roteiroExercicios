@@ -49,10 +49,9 @@ public class Testes {
 
     public static void main(String args[]){
 
-        Testes testes = new Testes();
-        //testes.testeStudent();
-        //testes.testeEmployee();
-        testes.testeProfessor();
+        ExceptionNotHandledTest teste = new ExceptionNotHandledTest();
+
+        teste.run();
 
 
     }
